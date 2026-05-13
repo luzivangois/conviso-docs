@@ -291,6 +291,15 @@ python -m conviso.app requirements activities \
   --project-id 26102
 ```
 
+Upload one or more files as evidence to a requirement activity:
+
+```bash
+python -m conviso.app requirements attach \
+  --activity-id 123456 \
+  --reason "Evidence for validation" \
+  --file ./evidence.png
+```
+
 Update a requirement:
 
 ```bash
